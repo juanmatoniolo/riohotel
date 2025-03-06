@@ -1,0 +1,34 @@
+/* Variables de color */
+:root {
+    --primary-color: #FFFFFF;
+    --text-color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos de la barra de navegación */
+.navbar-custom {
+    background-color: var(--primary-color) !important;
+}
+
+
+.titulo-nav>img {
+    width: 3.6em;
+    object-fit: contain;
+
+}
+
+/* Estilos header */
+.contenedor-imagen {
+    width: 100%;
+    height: 100vh;
+}
+
+.imagen-contenedor-imagen {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}

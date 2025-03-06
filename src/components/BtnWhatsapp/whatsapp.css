@@ -1,0 +1,41 @@
+.ht-ctc {
+    position: fixed;
+    bottom: 1em;
+    right: 20px;
+    cursor: pointer;
+    z-index: 99999999;
+}
+
+.ht_ctc_style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctc_chip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4e4e4;
+    color: #7f7d7d;
+    padding: 0 12px;
+    border-radius: 25px;
+    font-size: 13px;
+    line-height: 32px;
+}
+
+.s4_img {
+    margin: 0 8px 0 -12px;
+    order: 0;
+}
+
+.s4_img svg {
+    pointer-events: none;
+    display: block;
+    height: 1em;
+    width: 1em;
+}
+
+.ctc_cta {
+    font-weight: bold;
+}
