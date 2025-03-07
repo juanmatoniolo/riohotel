@@ -3,17 +3,17 @@
 	"name": "Río Hotel - Hotel 3 Estrellas en Chajarí",
 	"icons": [
 		{
-			"src": "Hotel-Rio2.ico",
+			"src": "/Hotel-Rio2.ico",
 			"sizes": "64x64 32x32 24x24 16x16",
 			"type": "image/x-icon"
 		},
 		{
-			"src": "Hotel-Rio.webp",
+			"src": "/Hotel-Rio.webp",
 			"type": "image/png",
 			"sizes": "192x192"
 		},
 		{
-			"src": "Hotel-Rio.webp",
+			"src": "/Hotel-Rio.webp",
 			"type": "image/png",
 			"sizes": "512x512"
 		}

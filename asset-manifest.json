@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1cf8fde7.css",
-    "main.js": "/static/js/main.501ba915.js",
+    "main.js": "/static/js/main.9f83587d.js",
     "static/js/453.bb353f71.chunk.js": "/static/js/453.bb353f71.chunk.js",
     "static/media/santa-ana3.webp": "/static/media/santa-ana3.3b44116d4514ab55ccd7.webp",
     "static/media/termas1.webp": "/static/media/termas1.3954c85ccef2498b51b1.webp",
@@ -39,11 +39,11 @@
     "static/media/Hotel-Rio.webp": "/static/media/Hotel-Rio.1e5513c88dd2442f54d6.webp",
     "index.html": "/index.html",
     "main.1cf8fde7.css.map": "/static/css/main.1cf8fde7.css.map",
-    "main.501ba915.js.map": "/static/js/main.501ba915.js.map",
+    "main.9f83587d.js.map": "/static/js/main.9f83587d.js.map",
     "453.bb353f71.chunk.js.map": "/static/js/453.bb353f71.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1cf8fde7.css",
-    "static/js/main.501ba915.js"
+    "static/js/main.9f83587d.js"
   ]
 }
