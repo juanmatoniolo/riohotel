@@ -9,7 +9,7 @@ function Carrusel({ images, className = "" }) {
 					<img
 						src={src}
 						alt={`Imagen ${index + 1} del carrusel`}
-						className="d-block imagen-contenedor-imagen"
+						className={`d-block imagen-contenedor-imagen-1 imagen-${className}`} 
 						loading="lazy" // Carga la imagen solo cuando es visible
 					/>
 				</Carousel.Item>

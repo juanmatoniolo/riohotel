@@ -1,60 +1,86 @@
-import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { FaInfoCircle, FaClock, FaPhone, FaWhatsapp } from "react-icons/fa";
+import {
+	FaParking,
+	FaWifi,
+	FaGlassMartiniAlt,
+	FaTv,
+	FaCoffee,
+	FaSwimmingPool,
+	FaInfoCircle,
+	FaHotel,
+	FaMapMarkerAlt,
+	FaEnvelope,
+	FaClock,
+	FaPhone,
+	FaWhatsapp,
+} from "react-icons/fa";
+import "./comodidades.css";
 
-function Comodidades() {
-    return (
-        <>
-            <h1 id="comodidades">Comodidades</h1>
-            <div className="container mt-4">
-                <h2>Información del Hotel</h2>
-                <div className="row">
-                    <div className="col-md-4">
-                        <div className="d-flex align-items-center">
-                            <FaInfoCircle className="me-2" size={24} />
-                            <div>
-                                <h6>Hotel RIO</h6>
-                                <p>Dirección: Rivadavia 4085 - Chajari, ER<br />
-                                    Mail: riohotelchajari@hotmail.com</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className="d-flex align-items-center">
-                            <FaClock className="me-2" size={24} />
-                            <div>
-                                <h6>Check-In</h6>
-                                <p>13:00 PM</p>
-                            </div>
-                        </div>
-                        <div className="d-flex align-items-center mt-3">
-                            <FaClock className="me-2" size={24} />
-                            <div>
-                                <h6>Check-Out</h6>
-                                <p>10:00 AM</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className="d-flex align-items-center">
-                            <FaPhone className="me-2" size={24} />
-                            <div>
-                                <h6>Número de teléfono</h6>
-                                <p>03456 - 422423</p>
-                            </div>
-                        </div>
-                        <div className="d-flex align-items-center mt-3">
-                            <FaWhatsapp className="me-2" size={24} />
-                            <div>
-                                <h6>WhatsApp</h6>
-                                <p>03456 - 496264</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </>
-    );
+const amenities = [
+	{ icon: FaParking, text: "Estacionamiento" },
+	{ icon: FaWifi, text: "Wi-Fi" },
+	{ icon: FaGlassMartiniAlt, text: "Minibar" },
+	{ icon: FaTv, text: "Smart TV" },
+	{ icon: FaCoffee, text: "Desayuno sin TAC" },
+	{ icon: FaSwimmingPool, text: "Piscina" },
+];
+
+const contactInfo = [
+  { icon: FaClock, text: "Check-In: 13:00 PM" },
+  { icon: FaClock, text: "Check-Out: 10:00 AM" },
+	{
+		icon: FaMapMarkerAlt,
+		text: "Cómo llegar",
+		link: "https://www.google.com/maps/dir//Rivadavia+4085,+Chajarí,+Entre+Ríos",
+	},
+	{
+		icon: FaEnvelope,
+		text: "riohotelchajari@hotmail.com",
+		link: "mailto:riohotelchajari@hotmail.com",
+	},
+	{ icon: FaPhone, text: "03456 - 422423", link: "tel:03456422423" },
+	{
+		icon: FaWhatsapp,
+		text: "03456 - 496264",
+		link: "https://wa.me/543456496264",
+	},
+];
+
+export default function HotelAmenities() {
+	return (
+		<section className="hotel-section">
+			<div className="container">
+				<h2> Comodidades</h2>
+				<div className="grid amenities-grid">
+					{amenities.map(({ icon: Icon, text }, index) => (
+						<div key={index} className="amenity">
+							<Icon className="icon" />
+							<p>{text}</p>
+						</div>
+					))}
+				</div>
+        <br />
+        <br />
+
+				<h3>Información del Hotel</h3>
+				<div className="grid contact-grid">
+					{contactInfo.map(({ icon: Icon, text, link }, index) => (
+						<div key={index} className="contact-item">
+							<Icon className="icon" />
+							{link ? (
+								<a
+									href={link}
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									{text}
+								</a>
+							) : (
+								<p>{text}</p>
+							)}
+						</div>
+					))}
+				</div>
+			</div>
+		</section>
+	);
 }
-
-export default Comodidades;

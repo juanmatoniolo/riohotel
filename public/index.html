@@ -4,11 +4,78 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <meta name="description" content="Web site created using create-react-app" />
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <meta name="theme-color" content="#24B3A1" />
+  <meta name="description"
+    content="Río Hotel, un hotel 3 estrellas en Chajarí, ofrece habitaciones clásicas, suites, familiares, premium y superiores. Disfruta de cochera, piscina, desayunos sin TAC y más en una ubicación excelente en el centro de la ciudad." />
+  <meta name="keywords"
+    content="hotel tres estrellas, hotel Chajarí, habitaciones clásicas, suites, familiar, premium, superior, cochera, piscina, desayuno sin TAC, Chajarí, alojamiento Chajarí" />
+  <meta property="og:title" content="Río Hotel - Hotel 3 Estrellas en Chajarí" />
+  <meta property="og:description"
+    content="Descubre Río Hotel, un hotel tres estrellas en Chajarí con habitaciones variadas como clásicas, suites, familiares, premium y superiores. Disfruta de una excelente ubicación y servicios como cochera, piscina y desayunos sin TAC." />
+  <meta property="og:image" content="URL_DE_LA_IMAGEN" />
+  <meta property="og:url" content="URL_DEL_HOTEL" />
+  <meta property="og:type" content="website" />
   <title>Río Hotel</title>
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link rel="shortcut icon" href="%PUBLIC_URL%Hotel-Rio2.ico" type="image/x-icon">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Hotel",
+    "name": "Río Hotel",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Dirección del hotel",
+      "addressLocality": "Chajarí",
+      "addressRegion": "Entre Ríos",
+      "postalCode": "Código postal"
+    },
+    "image": "URL_DE_LA_IMAGEN_DEL_HOTEL",
+    "telephone": "Número de teléfono",
+    "priceRange": "$$$",
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Piscina",
+        "value": "Disponible"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Cochera",
+        "value": "Disponible"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Desayuno sin TAC",
+        "value": "Disponible"
+      }
+    ],
+    "room": [
+      {
+        "@type": "HotelRoom",
+        "name": "Habitación Clásica"
+      },
+      {
+        "@type": "HotelRoom",
+        "name": "Suite"
+      },
+      {
+        "@type": "HotelRoom",
+        "name": "Habitación Familiar"
+      },
+      {
+        "@type": "HotelRoom",
+        "name": "Habitación Premium"
+      },
+      {
+        "@type": "HotelRoom",
+        "name": "Habitación Superior"
+      }
+    ]
+  }
+  </script>
 </head>
+
 
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>

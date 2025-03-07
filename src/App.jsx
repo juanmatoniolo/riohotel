@@ -13,16 +13,6 @@ function App() {
 		<>
 			<Navegacion />
 			<Header />
-			<h1>Hotel Río</h1>
-			<h5>
-				Estamos dedicados a brindar a nuestros huéspedes una experiencia
-				inolvidable. Ya sea que esté buscando una escapada romántica, un
-				viaje de negocios productivo o unas vacaciones en familia,
-				nuestro hotel es el lugar perfecto para satisfacer todas sus
-				necesidades. Nuestras habitaciones elegantes, servicios de
-				primera categoría y ubicación privilegiada harán que su estancia
-				sea inolvidable.
-			</h5>
 			<Comodidades />
 			<Habitaciones />
 			<Destinos />

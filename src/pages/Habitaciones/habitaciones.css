@@ -1,0 +1,148 @@
+/*     HABITACIONES          */
+
+
+.landing-container {
+    display: flex;
+    flex-flow: row wrap;
+
+
+
+}
+
+.contenedor-general-habitaciones {
+    width: 80%;
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 1em;
+    border-radius: 12px !important;
+    -webkit-border-radius: 12px !important;
+    -moz-border-radius: 12px !important;
+    -ms-border-radius: 12px !important;
+    -o-border-radius: 12px !important;
+    margin: auto;
+    margin-top: 3em;
+
+}
+
+.contendor-datos-imagenes {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 6px !important;
+    
+
+
+}
+
+.contendor-datos-habitaciones {
+    width: 65%;
+    display: flex;
+    flex-flow: column nowrap;
+
+
+}
+
+.reserva-sm {
+    display: none !important;
+}
+
+.imagenes-habitacion {
+    width: 100% !important;
+    height: 100%;
+    object-fit: cover; /* Mantiene la proporción y llena el contenedor */
+    object-position: center; /* Centra la imagen */
+}
+
+.imagen-imagenes-habitacion {
+    object-fit: cover !important;
+    width: 100% !important;
+    min-height: 30vh !important;
+    max-height: 24em !important;
+    border-radius: 12px !important;
+    -webkit-border-radius: 12px !important;
+    -moz-border-radius: 12px !important;
+    -ms-border-radius: 12px !important;
+    -o-border-radius: 12px !important;
+}
+
+
+.btn-reservar {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    background-color: #00C8C8 !important;
+    width: 18em;
+    margin-top: 1em;
+    align-items: start !important;
+    margin-bottom: 2em;
+
+
+}
+
+
+.btn-reservar:hover {
+    background-color: #00c8c8c8 !important;
+}
+
+.carousel-description-2 {
+    display: none;
+}
+
+
+
+
+/*ESTILOS PARA CELULARES */
+@media (max-width: 575px) {
+
+    /* Estilos header */
+    .contenedor-imagen {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .carousel-description {
+        display: none;
+    }
+
+    .carousel-description-2 {
+        display: block;
+        color: #FFFFFF;
+        text-align: unset;
+        font-size: 14px;
+    }
+
+    .contendor-datos-habitaciones {
+        width: 100%;
+    }
+
+
+    .contendor-datos-imagenes {
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    .contenedor-imagen {
+        width: 100%;
+
+    }
+
+    .imagenes-habitacion {
+        width: 100% !important;
+
+    }
+
+    /*     HABITACIONES          */
+    .contenedor-general-habitaciones {
+        align-items: center !important;
+    }
+
+    .reserva-sm {
+        display: block !important;
+
+    }
+
+    .reservar-xl {
+        display: none !important;
+    }
+
+}

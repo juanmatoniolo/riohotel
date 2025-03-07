@@ -1,0 +1,113 @@
+/* 📌 Estilos Generales */
+.hotel-section {
+    background-color: #ffffff;
+    color: #333;
+    padding: 3rem 1.5rem;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    max-width: 64rem;
+    margin: auto;
+}
+
+/* 📌 Títulos */
+h2,
+h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #24B3A1;
+    margin-bottom: 1.5rem;
+}
+
+/* 📌 Grid Responsivo */
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.amenities-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+}
+
+.contact-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+}
+
+/* 📌 Íconos */
+.icon {
+    font-size: 2.5rem;
+    color: #24B3A1;
+    transition: transform 0.2s ease-in-out;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+/* 📌 Estilos de elementos */
+.amenity,
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.amenity:hover,
+.contact-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* 📌 Textos */
+.amenity p,
+.contact-item p {
+    font-size: 1.125rem;
+    margin-top: 0.5rem;
+    color: #333;
+    font-weight: 500;
+}
+
+/* 📌 Links */
+a {
+    text-decoration: none;
+    color: #24B3A1;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #1b877b;
+}
+
+/* 📌 Responsividad */
+@media (max-width: 768px) {
+
+    h2,
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .icon {
+        font-size: 2rem;
+    }
+}
+
+
+.contact-item a {
+    overflow-wrap: break-word;
+    /* Permite que el texto se ajuste */
+    word-break: break-word;
+    /* Asegura que no sobresalga */
+    white-space: normal;
+    /* Permite que el texto haga saltos de línea */
+    display: block;
+    /* Hace que el email ocupe su propio espacio */
+}
