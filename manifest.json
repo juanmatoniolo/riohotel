@@ -2,21 +2,21 @@
 	"short_name": "Río Hotel",
 	"name": "Río Hotel - Hotel 3 Estrellas en Chajarí",
 	"icons": [
-		{
-			"src": "/Hotel-Rio2.ico",
-			"sizes": "64x64 32x32 24x24 16x16",
-			"type": "image/x-icon"
-		},
-		{
-			"src": "/Hotel-Rio.webp",
-			"type": "image/png",
-			"sizes": "192x192"
-		},
-		{
-			"src": "/Hotel-Rio.webp",
-			"type": "image/png",
-			"sizes": "512x512"
-		}
+	  {
+		"src": "/Hotel-Rio2.ico",
+		"sizes": "64x64 32x32 24x24 16x16",
+		"type": "image/x-icon"
+	  },
+	  {
+		"src": "/Hotel-Rio.webp",
+		"type": "image/png",
+		"sizes": "192x192"
+	  },
+	  {
+		"src": "/Hotel-Rio.webp",
+		"type": "image/png",
+		"sizes": "512x512"
+	  }
 	],
 	"start_url": ".",
 	"display": "standalone",
@@ -25,4 +25,5 @@
 	"description": "Río Hotel, un hotel 3 estrellas en Chajarí, ofrece habitaciones clásicas, suites, familiares, premium y superiores. Disfruta de cochera, piscina, desayunos sin TAC y más en una excelente ubicación en el centro de la ciudad.",
 	"keywords": "hotel tres estrellas, hotel Chajarí, habitaciones clásicas, suites, familiar, premium, superior, cochera, piscina, desayuno sin TAC, Chajarí, alojamiento Chajarí",
 	"lang": "es-AR"
-}
+  }
+  
