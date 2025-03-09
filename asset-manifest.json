@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.aa89d080.css",
-    "main.js": "/static/js/main.07fd4d7b.js",
+    "main.css": "/static/css/main.8414f1fe.css",
+    "main.js": "/static/js/main.a8439d1e.js",
     "static/js/453.bb353f71.chunk.js": "/static/js/453.bb353f71.chunk.js",
     "static/media/santa-ana3.webp": "/static/media/santa-ana3.3b44116d4514ab55ccd7.webp",
     "static/media/termas1.webp": "/static/media/termas1.3954c85ccef2498b51b1.webp",
@@ -11,11 +11,14 @@
     "static/media/santa-ana2.webp": "/static/media/santa-ana2.6b94f2bfdcdbd6bd7628.webp",
     "static/media/santa-ana1.webp": "/static/media/santa-ana1.1484304c4673eebc39b2.webp",
     "static/media/termas5.webp": "/static/media/termas5.9e7383d37fd704fae3a3.webp",
+    "static/media/campingchajari.webp": "/static/media/campingchajari.835d656c903dd20a43ba.webp",
     "static/media/termas2.webp": "/static/media/termas2.b3877a18bc53425276c0.webp",
+    "static/media/campingchajari1.webp": "/static/media/campingchajari1.98e61ac0a18a37c106b9.webp",
     "static/media/clasica2.webp": "/static/media/clasica2.b1d9aa7e74d5a61fc848.webp",
     "static/media/santa-ana7.webp": "/static/media/santa-ana7.0c42e0476058e7fb9832.webp",
     "static/media/superior3.webp": "/static/media/superior3.95658ec78a875053b2d0.webp",
     "static/media/sui1.jpg": "/static/media/sui1.400179d270670d7af362.jpg",
+    "static/media/museo1.jpg": "/static/media/museo1.7241e8f667c75247850d.jpg",
     "static/media/termas8.webp": "/static/media/termas8.d98a4122c1289d336944.webp",
     "static/media/termas4.webp": "/static/media/termas4.9e786e34d5d902f6edf7.webp",
     "static/media/termas9.webp": "/static/media/termas9.08df4810809c6422924e.webp",
@@ -24,10 +27,12 @@
     "static/media/riohotel1.jpg": "/static/media/riohotel1.81a19d89b53ac5feae53.jpg",
     "static/media/termas3.webp": "/static/media/termas3.ecae9fc3f180a0124146.webp",
     "static/media/superior1.webp": "/static/media/superior1.22effbb4a54fd894f732.webp",
+    "static/media/parroquia.jpg": "/static/media/parroquia.68b00afb5f573bedf6d6.jpg",
     "static/media/sui3.webp": "/static/media/sui3.a7034871814375b7b818.webp",
     "static/media/superiro2.webp": "/static/media/superiro2.379f22b237859862ac8e.webp",
     "static/media/familair4.webp": "/static/media/familair4.ee7e80807fa5784af4e8.webp",
     "static/media/familiar3.webp": "/static/media/familiar3.e3d29ca9adca570d6397.webp",
+    "static/media/museo2.webp": "/static/media/museo2.a02de571077375b1d97b.webp",
     "static/media/familiar2.webp": "/static/media/familiar2.16bb3eeccb10b1083232.webp",
     "static/media/riohotel.jpg": "/static/media/riohotel.8f83be32463cb66ecadf.jpg",
     "static/media/termas7.webp": "/static/media/termas7.37cd10663a5357784d70.webp",
@@ -38,12 +43,12 @@
     "static/media/Hotel-Rio2.png": "/static/media/Hotel-Rio2.f5d62670af209b086511.png",
     "static/media/Hotel-Rio.webp": "/static/media/Hotel-Rio.1e5513c88dd2442f54d6.webp",
     "index.html": "/index.html",
-    "main.aa89d080.css.map": "/static/css/main.aa89d080.css.map",
-    "main.07fd4d7b.js.map": "/static/js/main.07fd4d7b.js.map",
+    "main.8414f1fe.css.map": "/static/css/main.8414f1fe.css.map",
+    "main.a8439d1e.js.map": "/static/js/main.a8439d1e.js.map",
     "453.bb353f71.chunk.js.map": "/static/js/453.bb353f71.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa89d080.css",
-    "static/js/main.07fd4d7b.js"
+    "static/css/main.8414f1fe.css",
+    "static/js/main.a8439d1e.js"
   ]
 }
