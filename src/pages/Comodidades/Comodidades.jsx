@@ -47,7 +47,7 @@ const contactInfo = [
 
 export default function HotelAmenities() {
 	return (
-		<section className="hotel-section">
+		<section className="hotel-section" id="comodidades">
 			<div className="container">
 				<h2> Comodidades</h2>
 				<div className="grid amenities-grid">

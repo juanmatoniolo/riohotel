@@ -33,5 +33,11 @@ const imagenes = {
 	superior1: require("./Habitaciones/Superior/superior1.webp"),
 	superior2: require("./Habitaciones/Superior/superiro2.webp"),
 	superior3: require("./Habitaciones/Superior/superior3.webp"),
+	parroquia: require("./OtrosDestinos/parroquia.jpg"),
+	campingChajari: require("./OtrosDestinos/campingchajari1.webp"),
+	campingChajari2: require("./OtrosDestinos/campingchajari.webp"),
+	museo1: require("./OtrosDestinos/museo1.jpg"),
+	museo2: require("./OtrosDestinos/museo2.webp"),
+
 };
 export default imagenes;
