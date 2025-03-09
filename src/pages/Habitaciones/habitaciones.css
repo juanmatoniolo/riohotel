@@ -29,7 +29,7 @@
     display: flex;
     flex-flow: row nowrap;
     padding: 6px !important;
-    
+
 
 
 }
@@ -49,8 +49,10 @@
 .imagenes-habitacion {
     width: 100% !important;
     height: 100%;
-    object-fit: cover; /* Mantiene la proporción y llena el contenedor */
-    object-position: center; /* Centra la imagen */
+    object-fit: cover;
+    /* Mantiene la proporción y llena el contenedor */
+    object-position: center;
+    /* Centra la imagen */
 }
 
 .imagen-imagenes-habitacion {
@@ -74,6 +76,9 @@
     margin-top: 1em;
     align-items: start !important;
     margin-bottom: 2em;
+    width: 90%;
+    justify-content: center;
+
 
 
 }
@@ -96,7 +101,7 @@
     /* Estilos header */
     .contenedor-imagen {
         width: 100%;
-        height: 50vh;
+
     }
 
     .carousel-description {

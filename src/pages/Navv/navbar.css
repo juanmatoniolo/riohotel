@@ -1,0 +1,129 @@
+/* Estilos de la barra de navegación */
+.navbar-custom {
+    background-color: var(--primary-color) !important;
+}
+
+.navbar-custom {
+    position: -webkit-sticky !important;
+    /* Soporte para Safari en iOS < 13 */
+    position: sticky !important;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    /* Blanco con 80% de opacidad */
+    backdrop-filter: blur(5px) !important;
+
+    /* Efecto de desenfoque */
+    /* Agregar el prefijo -webkit- para compatibilidad con Safari */
+    -webkit-backdrop-filter: blur(5px);
+    /* Efecto de desenfoque para Safari */
+    backdrop-filter: blur(5px);
+    /* Efecto de desenfoque estándar */
+}
+
+
+/* Estilo para la imagen del logo */
+.titulo-nav>img {
+    width: 3.6em;
+    object-fit: contain;
+}
+
+.navbar-nav {
+    font-weight: 700;
+    width: 100%;
+}
+
+.navbar-collapse {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between !important;
+}
+
+.links-nav {
+    display: flex !important;
+    flex-flow: row nowrap !important;
+    gap: 1em;
+    align-items: center;
+
+
+}
+
+.primeros-link {
+    width: 50%;
+}
+
+.segundos-link {
+    justify-content: flex-end !important;
+    text-align: center;
+    width: 50%;
+}
+
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    /* Centra el ícono con el texto */
+    gap: 8px;
+    /* Espacio entre el ícono y el texto */
+    font-size: 1rem;
+    /* Tamaño de fuente adecuado */
+}
+
+.nav-link svg {
+    font-size: 1.2em;
+    /* Ajusta el tamaño del icono */
+}
+
+
+/* Ajuste para dispositivos pequeños */
+@media (max-width: 576px) {
+    .navbar-collapse {
+        display: none;
+        /* Oculta el menú por defecto */
+    }
+
+    .navbar-collapse.show {
+        display: flex !important;
+        /* Muestra el menú cuando está expandido */
+        flex-direction: row !important;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+        /* Espaciado entre los elementos */
+    }
+
+    .controlador-navbar {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100%;
+        justify-content: center;
+        gap: 1em;
+    }
+
+    .links-nav {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 1em;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .nav-link {
+        padding: 0.5em 1em;
+        /* Ajusta el espacio de los enlaces */
+        text-align: center;
+    }
+
+    .segundos-link {
+        width: 100%;
+        justify-content: center !important;
+        gap: 5em;
+
+    }
+
+    .primeros-link {
+        width: 100%;
+    }
+}

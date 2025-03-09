@@ -17,18 +17,6 @@
 
 }
 
-/* Estilos de la barra de navegación */
-.navbar-custom {
-    background-color: var(--primary-color) !important;
-}
-
-
-.titulo-nav>img {
-    width: 3.6em;
-    object-fit: contain;
-
-}
-
 /* Estilos header */
 /* Contenedor principal del carrusel */
 .carousel-container {
@@ -81,8 +69,6 @@
     object-fit: cover;
     border-radius: 10px;
 }
-
-
 
 
 /*TABLETS  */
