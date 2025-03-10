@@ -140,7 +140,9 @@
     .contenedor-general-habitaciones {
         align-items: center !important;
     }
-
+.imagen-imagenes-habitacion{
+    height: 60vh;
+}
     .reserva-sm {
         display: block !important;
 

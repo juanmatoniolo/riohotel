@@ -3,19 +3,53 @@
     --primary-color: #FFFFFF;
     --text-color: #ffffff;
 }
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lora:wght@400;700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-
+    font-family: 'Lora', serif; /* Fuente elegante para textos generales */
+    
     ::selection {
-        background: #00C8C8;
-        /* Color de fondo del texto seleccionado */
-        color: #000000;
-        /* Color del texto seleccionado */
+        background: #00C8C8; /* Color de fondo del texto seleccionado */
+        color: #000000; /* Color del texto seleccionado */
     }
-
 }
+
+/* Títulos con fuente más sofisticada */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+/* Tamaños de fuente */
+h1 { font-size: 48px; } /* Título principal, impactante */
+h2 { font-size: 36px; } /* Subtítulos importantes */
+h3 { font-size: 28px; } /* Secciones secundarias */
+h4 { font-size: 22px; } /* Encabezados internos */
+h5 { font-size: 18px; } /* Títulos menores */
+h6 { font-size: 16px; } /* Textos de menor jerarquía */
+
+p {
+    font-size: 18px; /* Tamaño óptimo para lectura */
+    line-height: 1.6; /* Espaciado cómodo */
+    color: #333; /* Negro suave para mejor legibilidad */
+}
+
+small {
+    font-size: 14px;
+}
+
+/* Responsive: Ajustes para pantallas más pequeñas */
+@media (max-width: 768px) {
+    h1 { font-size: 36px; }
+    h2 { font-size: 28px; }
+    h3 { font-size: 24px; }
+    p { font-size: 16px; }
+}
+
+
 
 /* Estilos header */
 /* Contenedor principal del carrusel */
@@ -42,7 +76,7 @@
 
 /* Fondo semitransparente para mejorar la legibilidad */
 .carousel-overlay {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.434);
     padding: 20px;
     border-radius: 10px;
 }
